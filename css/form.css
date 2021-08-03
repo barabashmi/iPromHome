@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(https://f1-styx.imgix.net/article/2019/06/26185007/pria-kerja-dari-rumah-menerjemahkan-bahasa-di-laptop.jpg);
+}
+
+
+
+
+.header__login-button {
+    cursor: pointer;
+}
+
+
+
+/*header__login*/
+.header__login{
+    width: min-content;
+    background-color: rgb(244, 253, 255);
+    padding: 15px ;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+    z-index: 150;
+}
+
+.header__login-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.header__login-input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+.header__login-input input {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+
+.header__login-submit{
+    width: 250px;
+    /* margin: 0 auto; */
+}
+
+.header__login-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+/***********************************/
+
+/*header__reg*/
+
+.header__reg {
+    width: min-content;
+    background-color: rgb(244, 253, 255);
+    padding: 15px ;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+    z-index: 150;
+}
+
+.header__reg input {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.header__reg-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.header__reg-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.header__reg-close .header__login-close{
+    cursor: pointer;
+}
+/***********************************/
+
+/*header__layer*/
+
+.header__layer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, 0.75);
+    display: none;
+    z-index: 100;
+}
+
+
+/***********************************/
